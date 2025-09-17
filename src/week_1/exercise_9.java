@@ -1,0 +1,18 @@
+package week_1;
+
+import java.util.Scanner;
+
+public class exercise_9 {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+
+        System.out.println("Type a number:");
+        int first  = reader.nextInt();
+
+        System.out.println("Type another number:");
+        int second = reader.nextInt();
+
+        double quotient = (double) first / second;
+        System.out.println("Division: " + first + " / " + second + " = " + quotient);
+    }
+}
